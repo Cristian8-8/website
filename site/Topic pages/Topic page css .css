@@ -1,0 +1,22 @@
+body{
+    background-color: royalblue;
+}
+.fundo{
+    background-color: aliceblue;
+    justify-content: center;
+    height: 580px;
+    width: 780px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.796);
+}
+.texto1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: none;
+    color: inherit;
+}
