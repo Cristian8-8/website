@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Atribuindo 10 à variável nota",
+    "resposta": "nota = 10"
+  },
+  {
+    "id": 2,
+    "pergunta": "Atribuindo 10 à variável nota e 5 à variável faltas",
+    "resposta": "nota = 10\nfaltas = 5\n\n# OUTRA FORMA DE FAZER\n\nnota, faltas = 10, 5"
+  },
+  {
+    "id": 3,
+    "pergunta": "Incrementando a variável soma (acrescentando um do valor atual dela)",
+    "resposta": "soma = soma+1\n\n# OUTRA FORMA DE FAZER\n\nsoma += 1"
+  },
+  {
+    "id": 4,
+    "pergunta": "Decrementando a variável soma (subtraindo um do valor atual dela)",
+    "resposta": "soma = soma-1\n\n# OUTRA FORMA DE FAZER\n\nsoma -= 1"
+  },
+  {
+    "id": 5,
+    "pergunta": "Dobrando o valor armazenado na variável saldo_bancario",
+    "resposta": "saldo_bancario = 2*saldo_bancario\n\n# OUTRA FORMA DE FAZER\n\nsaldo_bancario *= 2"
+  },
+  {
+    "id": 6,
+    "pergunta": "Trocando o valor armazenado em duas variáveis a e b\nEm outras palavras, mudar o valor de a para o de b e vice-versa",
+    "resposta": "aux = a\na = b\nb = aux\n\n# OUTRA FORMA DE FAZER\n\na,b = b, a"
+  }
+]

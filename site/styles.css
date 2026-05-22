@@ -1,0 +1,64 @@
+
+body{
+    background-color: royalblue;
+}
+
+.carta{
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.796);
+    justify-content: center;
+    margin: auto;
+    height: 580px;
+    width: 780px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    margin-top: 10% ;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+    position: relative;
+    
+}
+
+.faces {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.frente{
+    font-family: 'JetBrains Mono', monospace;
+    color: black;
+    text-align: center;
+}
+
+.costa{
+    background: rgb(0, 0, 0);
+    transform: rotateY(180deg);
+    color: aliceblue;
+    width: 90%;
+    height: 90%;
+}
+
+.carta.is-flipped {
+    transform: translateX(-100%) rotateY(-180deg);
+    background-color: rgb(0, 0, 0);
+    box-shadow: -6px 6px 15px rgba(0, 0, 0, 0.796);
+}
+#volta,
+#avançar{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 10;
+}
+#volta{
+    left: 0;
+}
+
+#avançar{
+    right: 0;
+}
